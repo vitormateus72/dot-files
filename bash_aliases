@@ -1,0 +1,5 @@
+alias cls="clear"
+alias upgrade="sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo snap refresh"
+alias reboot="sudo shutdown -r now"
+alias bashrc="nano .bashrc ; source .bashrc"
+alias aliases="nano .bash_aliases ; source .bashrc"
